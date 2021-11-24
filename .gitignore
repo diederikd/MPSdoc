@@ -1,0 +1,10 @@
+**/classes_gen
+**/source_gen
+**/source_gen.caches
+*.html
+*.java
+/.mps/workspace.xml
+
+\.gitattributes
+
+\.mps/vcs\.xml
