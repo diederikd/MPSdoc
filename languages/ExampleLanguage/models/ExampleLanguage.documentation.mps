@@ -5,7 +5,6 @@
   <languages>
     <use id="823afbdd-ed0e-4841-b27e-ccc3c3dd6e49" name="MPSdocaspect" version="0" />
     <use id="bd349684-a2c7-4991-b403-29030d4f43c5" name="markdown" version="0" />
-    <engage id="d3aadf3b-6655-47c1-a70a-ffbd73439453" name="MPSdocgenerator" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
