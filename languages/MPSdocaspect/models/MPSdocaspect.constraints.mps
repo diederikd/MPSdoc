@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:335417ea-7cbc-48b6-b6f1-a0b8e173eac8(MPSdoc.constraints)">
+<model ref="r:3293b1f1-989e-45e3-9283-85d1fa746f27(MPSdocaspect.constraints)">
   <persistence version="9" />
   <languages>
     <use id="5dae8159-ab99-46bb-a40d-0cee30ee7018" name="jetbrains.mps.lang.constraints.rules.kinds" version="0" />

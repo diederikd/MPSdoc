@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:c449eab9-f639-4934-be66-1de0c955e7b9(MPSdoc.typesystem)">
+<model ref="r:269371d8-b5d1-4037-bc9c-a60ed21c4b98(MPSdocaspect.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />

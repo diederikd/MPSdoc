@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="MPSdoc" uuid="d3aadf3b-6655-47c1-a70a-ffbd73439453" languageVersion="0" moduleVersion="0">
+<language namespace="MPSdocgenerator" uuid="d3aadf3b-6655-47c1-a70a-ffbd73439453" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -12,7 +12,7 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="MPSdoc.generator" uuid="a011b7e8-43e3-400c-8418-030fe49e90df">
+    <generator alias="main" namespace="MPSdocgeneratorgenerator" uuid="a011b7e8-43e3-400c-8418-030fe49e90df">
       <models>
         <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot location="templates" />
@@ -26,6 +26,7 @@
       <external-templates />
       <dependencies>
         <dependency reexport="false">bd349684-a2c7-4991-b403-29030d4f43c5(markdown)</dependency>
+        <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
@@ -54,8 +55,10 @@
         <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
-        <module reference="d3aadf3b-6655-47c1-a70a-ffbd73439453(MPSdoc)" version="0" />
-        <module reference="a011b7e8-43e3-400c-8418-030fe49e90df(MPSdoc.generator)" version="0" />
+        <module reference="823afbdd-ed0e-4841-b27e-ccc3c3dd6e49(MPSdocaspect)" version="0" />
+        <module reference="932d6519-624c-4cb8-bba9-7fbc2b3ad5e9(MPSdocaspect.runtime)" version="0" />
+        <module reference="d3aadf3b-6655-47c1-a70a-ffbd73439453(MPSdocgenerator)" version="0" />
+        <module reference="a011b7e8-43e3-400c-8418-030fe49e90df(MPSdocgeneratorgenerator)" version="0" />
         <module reference="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
@@ -68,6 +71,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false" scope="generate-into">bd349684-a2c7-4991-b403-29030d4f43c5(markdown)</dependency>
+    <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
@@ -111,7 +115,8 @@
     <module reference="498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)" version="0" />
-    <module reference="d3aadf3b-6655-47c1-a70a-ffbd73439453(MPSdoc)" version="0" />
+    <module reference="823afbdd-ed0e-4841-b27e-ccc3c3dd6e49(MPSdocaspect)" version="0" />
+    <module reference="d3aadf3b-6655-47c1-a70a-ffbd73439453(MPSdocgenerator)" version="0" />
     <module reference="d936855b-48da-4812-a8a0-2bfddd633ac5(jetbrains.mps.lang.behavior.api)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
@@ -120,7 +125,7 @@
     <module reference="bd349684-a2c7-4991-b403-29030d4f43c5(markdown)" version="0" />
   </dependencyVersions>
   <extendedLanguages>
-    <extendedLanguage>c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</extendedLanguage>
+    <extendedLanguage>823afbdd-ed0e-4841-b27e-ccc3c3dd6e49(MPSdocaspect)</extendedLanguage>
   </extendedLanguages>
 </language>
 

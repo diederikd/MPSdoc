@@ -3,9 +3,9 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/ExampleLanguage/ExampleLanguage.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/MPSdoc/MPSdoc.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/MPSdoc/sandbox/MPSdoc.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/Genplan/mpsdocgenplan.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/MPSdocaspect/MPSdocaspect.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/MPSdocgenerator/MPSdocgenerator.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/docaspect/docaspect.msd" folder="" />
     </projectModules>
   </component>
 </project>
