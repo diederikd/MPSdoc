@@ -1,8 +1,10 @@
 **/classes_gen
 **/source_gen
 **/source_gen.caches
+**/site
 *.html
 *.java
+*.md
 /.mps/workspace.xml
 
 \.gitattributes

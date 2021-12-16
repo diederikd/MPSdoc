@@ -1,0 +1,8 @@
+site_name: MPSdocs
+site_url: https://www.example.com
+nav:
+    - Home: index.md
+    - About: about.md
+
+theme:
+   name: readthedocs
