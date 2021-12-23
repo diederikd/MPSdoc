@@ -1,0 +1,20 @@
+repositories {
+    maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
+    mavenCentral()
+}
+
+configurations {
+    mpsExtensions
+}
+
+dependencies {
+    mpsExtensions "de.itemis.mps:extensions:2018.2.+"
+}
+
+task resolve_extensions(type: Copy) {
+    dependsOn configurations.mpsExtensions
+    from {
+        configurations.mpsExtensions.resolve().collect { zipTree(it) }
+    }
+    into "lib"
+}

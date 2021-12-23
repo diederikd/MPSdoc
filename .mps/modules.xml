@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/ExampleLanguage/ExampleLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/MPSdocaspect/MPSdocaspect.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/MPSdoc.build/MPSdoc.build.msd" folder="" />
     </projectModules>
   </component>
 </project>

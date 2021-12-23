@@ -43,6 +43,11 @@
     <property role="EcuMT" value="122376491563686550" />
     <property role="TrG5h" value="Concept1" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="687fYe0X9M5" role="1TKVEi">
+      <property role="IQ2ns" value="7063684786907552901" />
+      <property role="20kJfa" value="refConcept11" />
+      <ref role="20lvS9" node="6MLclcwLEm" resolve="Concept1" />
+    </node>
     <node concept="1TJgyj" id="1_$_ejgE4Ay" role="1TKVEi">
       <property role="IQ2ns" value="1829751059093408162" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
